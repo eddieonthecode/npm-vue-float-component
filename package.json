@@ -1,7 +1,7 @@
 {
   "name": "vue-float-component",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lets you create float components that move across the screen by dragging and dropping",
   "main": "dist/vue-float-component.ssr.js",
   "browser": "dist/vue-float-component.esm.js",
   "module": "dist/vue-float-component.esm.js",
