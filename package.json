@@ -1,6 +1,6 @@
 {
   "name": "vue-float-component",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Lets you create float components that move across the screen by dragging and dropping",
   "main": "dist/vue-float-component.ssr.js",
   "browser": "dist/vue-float-component.esm.js",
@@ -8,7 +8,7 @@
   "unpkg": "dist/vue-float-component.min.js",
   "files": [
     "dist/*",
-    "src/**/*.vue"
+    "README.md"
   ],
   "scripts": {
     "serve": "vue-cli-service serve dev/serve.js",
@@ -32,7 +32,6 @@
     "rollup-plugin-terser": "^5.3.0",
     "rollup-plugin-vue": "^5.1.6",
     "vue": "^2.6.11",
-    "vue-float-component": "^1.0.0",
     "vue-template-compiler": "^2.6.11"
   },
   "peerDependencies": {
@@ -40,9 +39,5 @@
   },
   "engines": {
     "node": ">=10"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dungnt2khust/vue-float-component"
   }
 }

@@ -70,7 +70,7 @@ if (!argv.format || argv.format === 'es') {
     ...baseConfig,
     external,
     output: {
-      file: 'dist/sprite-to-gif.esm.js',
+      file: 'dist/vue-float-component.esm.js',
       format: 'esm',
       exports: 'named',
     },
@@ -104,9 +104,9 @@ if (!argv.format || argv.format === 'cjs') {
     external,
     output: {
       compact: true,
-      file: 'dist/sprite-to-gif.ssr.js',
+      file: 'dist/vue-float-component.ssr.js',
       format: 'cjs',
-      name: 'SpriteToGif',
+      name: 'VueFloatComponent',
       exports: 'named',
       globals,
     },
@@ -133,9 +133,9 @@ if (!argv.format || argv.format === 'iife') {
     external,
     output: {
       compact: true,
-      file: 'dist/sprite-to-gif.min.js',
+      file: 'dist/vue-float-component.min.js',
       format: 'iife',
-      name: 'SpriteToGif',
+      name: 'VueFloatComponent',
       exports: 'named',
       globals,
     },
